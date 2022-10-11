@@ -4,9 +4,9 @@
 #### 2) Type npx tsc (to compile the ts file into a js) 
 #### 3) Then type node index.js (to launch js file) 
 
-### This program will listen on the port given in your environment variable
-### and when a http get request is made on /ping the json of the header will
-### be display on the page.
+### This program will listen on the port given in your environment variable and when a http get request is made on /ping the json of the header will be display on the page.
+
+
 
 ### If another request is made it will redirect on a 404 error page
 
