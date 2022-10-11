@@ -4,7 +4,7 @@ import { type } from 'os';
 import { json } from 'stream/consumers';
 
 const app = express();
-const PING_LISTEN_PORT = 8080;
+const port = 80;
 app.get('/ping', (req, res) => {
     res.set({
         'Content-Type': 'application/json',
@@ -18,7 +18,7 @@ app.get('*', (req, res) => {
 })
 
 
-app.listen(PING_LISTEN_PORT, () => {
-    console.log('The application is listening on port '+ PING_LISTEN_PORT+'!');
+app.listen(port, () => {
+    console.log('The application is listening on port '+ port+'!');
 })
   
